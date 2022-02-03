@@ -1,0 +1,240 @@
+/* navbar-part start */
+@media(max-width: 575.98px){
+    .main-menu {
+        background: #e23e38;
+        top: 0;
+    }
+    .navbar-brand {
+        width: 150px;
+        height: 50px;
+        line-height: 40px;
+        background: #323232;
+        border: 0px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+    .main-menu .navbar-toggler i{
+        color: #f1f1f1;
+    }
+    .main-menu #navbarSupportedContent{
+        background: #e23e38;
+        text-align: center;
+    }
+    .main-menu ul li a::after{
+        display: none;
+    }
+
+    /* banner part */
+    #banner .banner-item {
+        padding-top: 135px;
+        padding-bottom: 100px;
+    }
+    #banner .banner-text h2 {
+        font-size: 18px;
+    }
+    #banner .banner-text h2::before {
+        display: none;
+    }
+    #banner .banner-text h2::after {
+        display: none;
+    }
+    #banner .banner-text h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    #banner .banner-text h1::before {
+        display: none;
+    }
+    #banner .banner-text h1::after {
+        display: none;
+    }
+    #banner .banner-text p {
+        font-size: 13px;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+    #banner .banner-text p::before {
+        display: none;
+    }
+    #banner .banner-text p::after {
+        display: none;
+    }
+    #banner .banner-text a {
+        font-size: 13px;
+        margin: 0px 10px;
+        padding: 5px 10px;
+    }
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+    /* banner part end */
+
+    /* about part */
+    #about {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .comn-head h3 {
+        font-size: 20px;
+    }
+    #about .about-text h6 {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0px 5px;
+        padding-bottom: 5px;
+        text-align: justify;
+    }
+    #about .about-text p {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0 5px;
+        text-align: justify;
+    }
+
+    /* about part end */
+
+    /* gallary part */
+    #gallary .gal-ban{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+     /* gallary part end */
+
+
+    /* team part */
+    #testimonial {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #team .team-head {
+        margin-bottom: 10px;
+    }
+    #team .overlay {
+        transform: scale(1);
+    }
+    #team .member-info p {
+	transform: scale(1);
+    }
+    #team .team-bio .member-info{
+        border: 1px solid #dddddd;
+    }
+    #team .team-bio:hover{
+        transform: translateY(0px);
+    }
+    #team .team-bio{
+        margin-bottom: 15px;
+    }
+
+    /* team part end */
+
+    /* testimonial part */
+
+    #testimonial .member-info-down p {
+        font-size: 12px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    #testimonial .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+    #testimonial .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+    #membership .membership-detail{
+        margin-bottom: 15px;
+    }
+
+    /* testimonial part end */
+
+    /* membership part */
+
+    #membership {
+        padding-bottom: 30px;
+    }
+
+    /* membership part end */
+
+    /* counter part */
+    #counter .counter-item h1 {
+        font-size: 26px;
+    }
+    #counter .counter-item h5 {
+        font-size: 7px;
+    }
+
+    /* counter part end */
+
+    /* classes part */
+    #classes {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    #classes .class-tab li {
+        width: 33.33%;
+    }
+   
+    #classes .tab-body ul li:nth-child(even){
+        margin-right: 0;
+    }
+    #classes .tab-body ul li {
+        width: 49%;
+        padding: 10px 0;
+    }
+    #classes .tab-body ul li p {
+        font-size: 12px;
+    }
+    #classes .tab-body ul li:nth-child(5){
+        margin-right: 5px;
+    }
+
+    /* classes part end */
+
+    /* sponser part */
+
+    #sponser {
+        padding-bottom: 30px;
+    }
+    #sponser .sponser-logo img {
+        padding: 15px 10px;
+    }
+    #sponser .sponser-logo {
+        margin: 5px 5px;
+    }
+    /* sponser part end */
+
+
+    /* footer part */
+
+    #foter .footer-bg {
+        padding-top: 20px;
+    }
+    #foter .fotr-cmn-hd {
+        margin-bottom: 20px;
+    }
+    #foter .footer-up img {
+        padding-bottom: 20px;
+    }
+    #foter .footer-mdl {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #foter .fotr-routine {
+        margin-bottom: 20px;
+    }
+    /* footer part end */
+}
+
+
+
+    /* navbar-part end */
+    /*  */
